@@ -12,3 +12,25 @@ web-build/
 # macOS
 .DS_Store
 .idea/*
+
+# Secrets / environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.crt
+*.cer
+*.pfx
+secrets.json
+credentials.json
+google-services.json
+GoogleService-Info.plist
+
+# Build artifacts / logs
+*.log
+yarn-error.log
+android/
+ios/
+dist/
+build/
+coverage/
